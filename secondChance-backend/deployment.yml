@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: secondchanceapp-container
-        image: sn-labs-ferdousnaimu
+        image: us.icr.io/sn-labs-ferdousnaimu/secondchanceapp:latest
         ports:
         - containerPort: 3060
       imagePullSecrets:
